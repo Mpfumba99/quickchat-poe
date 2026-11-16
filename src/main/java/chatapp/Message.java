@@ -16,6 +16,10 @@ import org.json.JSONObject;
  * PROG5121 POE Part 2 - Sending Messages.
  * Represents a single QuickChat message and keeps track of all messages sent.
  *
+ * In Part 3, each Message is also placed in the sent, stored or disregarded
+ * arrays held by MessageStore, which uses toJSON() and the JSON file below
+ * to read stored messages back into an array.
+ *
  * JSON storage uses the org.json library.
  * Reference: Leary, S. 2024. JSON in Java (org.json). [Online]
  * Available at: https://github.com/stleary/JSON-java [Accessed 18 October 2026].
