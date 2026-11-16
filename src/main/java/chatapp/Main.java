@@ -47,8 +47,8 @@ public class Main {
 
         boolean success = login.loginUser(loginUsername, loginPassword);
         System.out.println(login.returnLoginStatus(success));
-                if (success) {
-            QuickChat.run(scanner);
+        if (success) {
+            QuickChat.run(scanner, login.getFirstName() + " " + login.getLastName());
         }
 
         scanner.close();
