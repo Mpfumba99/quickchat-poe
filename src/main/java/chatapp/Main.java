@@ -3,7 +3,11 @@ package chatapp;
 import java.util.Scanner;
 
 /**
- * Console entry point for Part 1: registration and login.
+ * Console entry point for the QuickChat application.
+ *
+ * Part 1: registers a new user and logs them in (Login class).
+ * Parts 2 and 3: after a successful login, opens the QuickChat menu,
+ * passing the user's full name so it can be shown as the message sender.
  */
 public class Main {
 
